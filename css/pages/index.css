@@ -1,0 +1,315 @@
+@import url('../basics/basics.css');
+
+@import url('../components/header.css');
+
+
+@import url('./swiper-dentistas.css');
+
+@import url('../components/botones-flotantes.css');
+@import url('../components/footer.css');
+
+
+
+.container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.container-main {
+  width: 100%;
+  height: 100%;
+}
+
+/* Banner */
+
+.main-banner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.main-banner img {
+  border-radius: 25px 0 25px 0;
+  width: 60%;
+  box-shadow: 0px 1px 21px 2px rgba(0, 0, 0, 0.75);
+}
+
+/* Introducion */
+
+.main-introduction {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.introduction-item {
+  width: 100%;
+  padding: 20px;
+}
+
+.introduction-item-1 h3 {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.introduction-1-text {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.introduction-1-agendar {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  width: 40%;
+  padding: 10px 20px;
+  border-radius: 15px;
+  text-align: center;
+  background-color: #032da9;
+  margin: 20px auto;
+}
+
+.introduction-horarios {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.introduction-1-text ul li {
+  list-style-type: none;
+  text-align: center;
+}
+
+.introduction-item-2 h5 {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.introduction-item-2 p {
+  font-size: 18px;
+  line-height: 20px;
+  text-align: justify;
+}
+
+/* Promos */
+
+.main-promos {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.promos-title {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.promos-galery {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.promos-item {
+  width: 100%;
+}
+
+.promos-img {
+  width: 100%;
+  box-shadow: 0px 1px 21px 2px rgba(0, 0, 0, 0.75);
+}
+
+
+
+/* Dentistas */
+.main-dentistas {
+  width: 100%;
+  padding: 20px;
+}
+
+/* Pasos */
+
+.main-pasos {
+  width: 100%;
+  padding: 20px;
+}
+
+.pasos-title {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.pasos-list {
+  width: 100%;
+}
+
+.pasos-list-item {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.pasos-list-item h4 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.pasos-list-item p {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.pasos-img {
+  width: 100%;
+  box-shadow: 0px 1px 21px 2px rgba(0, 0, 0, 0.75);
+}
+
+@media (min-width: 767px) {
+
+
+  /* Banner */
+
+  .main-banner {
+    width: 100%;
+  }
+
+  .main-banner img {
+    border-radius: 30px 0 30px 0;
+    width: 30%;
+  }
+
+  /* Introducion */
+
+  .main-introduction {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 30px;
+    align-items: flex-start;
+
+  }
+
+  .introduction-item {
+    width: 100%;
+    padding: 20px 50px;
+  }
+
+  .introduction-item-1 h3 {
+    font-size: 30px;
+  }
+
+
+  .introduction-1-text {
+    font-size: 20px;
+    text-align: justify;
+  }
+
+
+  .introduction-horarios {
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 20px;
+  }
+
+
+  .introduction-item-2 h5 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .introduction-item-2 p {
+    font-size: 22px;
+    line-height: 25px;
+    text-align: justify;
+  }
+
+  /* Promos */
+
+  .main-promos {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+
+  .promos-title {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .promos-galery {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .promos-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .promos-img {
+    width: 60%;
+  }
+
+
+  /* Dentistas */
+  .main-dentistas {
+    padding: 40px;
+  }
+
+  /* Pasos */
+
+  .main-pasos {
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .pasos-title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  .pasos-list-item {
+    list-style-type: none;
+    margin-bottom: 20px;
+  }
+
+  .pasos-list-item h4 {
+    font-size: 22px;
+  }
+
+  .pasos-list-item p {
+    font-size: 20px;
+    text-align: justify;
+  }
+
+  .pasos-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .pasos-img {
+    width: 50%;
+  }
+}

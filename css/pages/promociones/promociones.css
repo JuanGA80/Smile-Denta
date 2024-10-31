@@ -1,0 +1,71 @@
+@import url('../../basics/basics.css');
+
+@import url('../../components/header.css');
+
+
+
+@import url('../../components/botones-flotantes.css');
+@import url('../../components/footer.css');
+
+
+
+.container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.container-main {
+  width: 100%;
+  height: 100%;
+}
+
+/* Title */
+
+.main-title {
+  width: 100%;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+/* promos */
+
+.main-promos {
+  width: 100%;
+}
+
+.promos-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.promo-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.promo-img {
+  width: 100%;
+  box-shadow: 0px 1px 21px 2px rgba(0, 0, 0, 0.75);
+}
+
+
+@media (min-width: 767px) {
+
+  .promos-container {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .promo-img {
+    width: 80%;
+  }
+
+}
