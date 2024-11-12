@@ -1,6 +1,6 @@
 .container-footer {
   width: 100%;
-  background-color: #003e76;
+  background-color: #dcdee8;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -15,7 +15,16 @@
 }
 
 .footer-info-contacto {
-  color: #fff;
+  color: #000000;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  border-radius: 0 50px 0 50px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
 }
 
 .footer-logo {
@@ -25,102 +34,201 @@
 
 .footer-contacto-text {
   font-size: 18px;
-}
-
-.footer-contacto-numeros {
-  margin-bottom: 20px;
-}
-
-.footer-contacto-numero{
-  font-size: 20px;
-  margin-bottom: 20px;
-  list-style-type: none;
-}
-
-.footer-contacto-numero a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.footer-info-contacto h4 {
-  font-size: 20px;
-  margin-bottom: 20px;
-}
-
-.footer-horario-item {
-  font-size: 20px;
-  list-style-type: none;
+  color: #7a7a7a;
 }
 
 /*  */
 
-.footer-info-nav {
+.footer-info-card {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  text-align: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.footer-info-card-icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}
+
+.footer-info-card-icon i {
+  font-size: 40px;
+  color: #fff;
+}
+
+.footer-info-card-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 20px;
-  margin: 20px 0;
-} 
+  text-align: center;
+}
+
+.footer-info-card-text-title {
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.footer-info-card-text-number {
+  text-decoration: none;
+  color: #000;
+}
+
+/*  */
+
+.footer-nav {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: #7a7a7a;
+}
+
+.footer-nav-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-nav-text a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #000;
+  border-radius: 5px;
+  padding: 20px 40px;
+  text-decoration: none;
+  width: 100%;
+}
+
+.footer-info-nav {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  margin: 40px 0;
+}
 
 .footer-nav-item {
   list-style-type: none;
 }
 
+.footer-nav-item {
+  align-self: flex-start;
+}
+
 .footer-nav-item a {
-  color: #fff;
+  color: #7a7a7a;
   text-decoration: none;
   font-size: 20px;
 }
 
 .footer-nav-item h4 {
-  color: #fff;
+  color: #6ec1e4;
   font-size: 25px;
 }
 
 /*  */
 .footer-info-map {
   width: 100%;
+  height: 400px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
-}
-
-.footer-map-text {
-  color: #fff;
-  font-size: 20px;
-  text-align: center;
 }
 
 .footer-info-map iframe {
   width: 100%;
-  height: 250px;
+  height: 100%;
 }
 
 /* copyright */
 
 .footer-copy {
   width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
 }
 
 .footer-copy span {
   display: block;
-  color: #fff;
+  color: #7a7a7a;
   text-align: center;
   padding: 10px;
 }
 
 .footer-copy a {
-  color: #fff;
+  color: #7a7a7a;
   text-decoration: none;
 }
 
 @media (min-width: 767px) {
 
+  .footer-info-map {
+    width: 100%;
+    height: 80vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } 
+
   .footer-info {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     justify-items: center;
+    padding: 10px 70px;
+  }
+
+  .footer-info-card-icon {
+    width: 70px;
+    height: 70px;
+  }
+
+  .footer-info-card-icon i {
+    font-size: 40px;
     padding: 20px;
   }
 
+  .footer-info-contacto {
+    align-items: flex-start;
+    text-align: left;
+    padding: 60px;
+  }
+
+  .footer-info-card {
+    flex-direction: row;
+  }
+
+  .footer-info-card-text {
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .footer-nav {
+    padding: 50px;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+  }
 }

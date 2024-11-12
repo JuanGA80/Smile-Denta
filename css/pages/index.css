@@ -1,14 +1,11 @@
-@import url('../basics/basics.css');
+@import url("../basics/basics.css");
 
-@import url('../components/header.css');
+@import url("../components/header.css");
 
+@import url("./swiper-dentistas.css");
 
-@import url('./swiper-dentistas.css');
-
-@import url('../components/botones-flotantes.css');
-@import url('../components/footer.css');
-
-
+@import url("../components/botones-flotantes.css");
+@import url("../components/footer.css");
 
 .container {
   width: 100%;
@@ -101,10 +98,7 @@
   gap: 40px;
   border-radius: 30px 0 30px 0;
   box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
-
 }
-
-
 
 .banner-card-title {
   font-size: 25px;
@@ -118,7 +112,6 @@
 .banner-card-time li {
   list-style-type: none;
 }
-
 
 /* Intro */
 
@@ -334,38 +327,111 @@
   padding: 20px;
 }
 
+.main-dentistas h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.dentistas-subtitle {
+  color: #4f5154;
+  margin-bottom: 30px;
+}
+
+.dentistas-cards {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.dentistas-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  text-align: center;
+}
+
+.dentista-card-img {
+  width: 100%;
+  border-radius: 45px 0 45px 0;
+}
+
+.dentista-card-nombre {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.dentista-card-cargo {
+  color: #062d92;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.dentista-card-exp {
+  font-size: 15px;
+  color: #52575d;
+}
 
 /* Pasos */
 
 .main-pasos {
-  width: 100%;
-  padding: 20px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 50px 20px;
+  box-sizing: border-box;
+  background-color: #4f5154;
+  border-radius: 0 40px 0 40px;
+  color: #fff;
 }
 
 .pasos-title {
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   margin-bottom: 20px;
 }
 
 .pasos-list {
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-direction: column;
 }
 
 .pasos-list-item {
   list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.pasos-list-number {
+  font-size: 30px;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 20px;
 }
 
 .pasos-list-item h4 {
-  margin-bottom: 20px;
   font-size: 20px;
   text-align: center;
 }
 
 .pasos-list-item p {
   font-size: 18px;
-  text-align: justify;
+  text-align: center;
+  color: #becbff;
 }
 
 .pasos-img {
@@ -374,8 +440,6 @@
 }
 
 @media (min-width: 767px) {
-
-
   /* Banner */
 
   .main-banner {
@@ -427,7 +491,6 @@
 
   /* Intro */
 
-
   .intro-titles h2 {
     font-size: 50px;
   }
@@ -457,7 +520,6 @@
 
   .intro-imagenes {
     flex-direction: row;
-    position: relative;
     height: 100vh;
   }
 
@@ -467,12 +529,7 @@
     justify-content: center;
     gap: 10px;
   }
-
-  .intro-imagen-1 {
-    height: 100vh;
-    width: 800px;
-    object-fit: cover;
-  }
+s
 
   .intro-imagen-fig img {
     height: 100%;
@@ -530,7 +587,7 @@
   /* Agendar */
   .main-agendar {
     display: grid;
-    grid-template-columns: repeat();
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto auto;
     padding: 90px;
     padding-bottom: 0;
@@ -545,7 +602,7 @@
 
   .agendar-text p {
     font-size: 15px;
-    text-align:left;
+    text-align: left;
     line-height: 25px;
   }
 
@@ -621,50 +678,85 @@
     color: #fff;
   }
 
-
-
   /* Dentistas */
   .main-dentistas {
-    padding: 40px;
+    width: 100%;
+    padding: 20px  110px;
+  }
+
+  .main-dentistas h2 {
+    text-align: left;
+  }
+
+  .dentistas-subtitle {
+    color: #4f5154;
+    margin-bottom: 30px;
+  }
+
+  .dentistas-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: start;
+  }
+
+  .dentistas-card {
+    gap: 15px;
+  }
+
+  .dentista-card-nombre {
+    font-size: 22px;
+  }
+
+  .dentista-card-cargo {
+    font-size: 17px;
+  }
+
+  .dentista-card-exp {
+    font-size: 17px;
   }
 
   /* Pasos */
 
   .main-pasos {
-    width: 100%;
-    padding: 20px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .pasos-title {
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 30px;
-  }
-
-  .pasos-list-item {
-    list-style-type: none;
-    margin-bottom: 20px;
-  }
-
-  .pasos-list-item h4 {
-    font-size: 22px;
-  }
-
-  .pasos-list-item p {
-    font-size: 20px;
-    text-align: justify;
+    width: 80%;
+    padding: 80px 100px;
   }
 
   .pasos-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
   }
 
-  .pasos-img {
-    width: 50%;
+  .pasos-title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
   }
+
+  .pasos-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: flex-start;
+  }
+
+  .pasos-list-item {
+    list-style-type: none;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .pasos-list-item h4 {
+    font-size: 22px;
+    text-align: left;
+  }
+
+  .pasos-list-item p {
+    font-size: 18px;
+    text-align: justify;
+  }
+
+ 
 }

@@ -1,13 +1,11 @@
-@import url('../../basics/basics.css');
+@import url("../../basics/basics.css");
 
-@import url('../../components/header.css');
+@import url("../../components/header.css");
 
-@import url('../swiper-dentistas.css');
+@import url("../swiper-dentistas.css");
 
-@import url('../../components/botones-flotantes.css');
-@import url('../../components/footer.css');
-
-
+@import url("../../components/botones-flotantes.css");
+@import url("../../components/footer.css");
 
 .container {
   width: 100%;
@@ -20,144 +18,167 @@
   height: 100%;
 }
 
-/* Title */
-
-.main-title {
-  width: 100%;
-  padding: 30px;
-}
-
-h1 {
-  font-size: 40px;
-  text-align: center;
-}
-
 /* Introduccion */
 
 .main-intro {
   width: 100%;
   padding: 20px;
-}
-
-.main-intro p {
-  font-size: 18px;
-  text-align: justify;
-}
-
-/* Servicios */
-
-.main-servicios {
-  width: 100%;
-  padding: 20px;
-}
-
-.main-servicios h2 {
-  text-align: center;
-  font-size: 30px;
-  margin-bottom: 20px;
-}
-
-.servicios-cards {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(2, 40%);
-  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 20px;
 }
 
-.servicios-card {
-  width: 100%;
-  padding: 5px;
-  height: 150px;
-  border: 1px solid #000;
-  border-radius: 15px 0 15px 0;
-  box-shadow: 0px 1px 10px 2px rgba(0, 0, 0, 0.75);
+.main-intro h2 {
+  color: #000;
+  font-size: 50px;
+  text-align: center;
+}
 
+.main-intro h3 {
+  color: #3e5255;
+  font-size: 30px;
+  text-align: center;
+}
+
+.main-intro p {
+  font-size: 20px;
+  text-align: justify;
+  color: rgb(0, 0, 0, 0.5);
+}
+
+/* Acerca */
+
+.main-acerca {
+  width: 100%;
+  padding: 10px;
+}
+
+.acerca-fig {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.servicios-card h5 {
-  font-size: 18px;
-  text-align: center;
-  margin: auto auto;
+.acerca-fig img {
+  width: 100%;
 }
 
-
-
-/* Equipo de Dentistas */
-
-.main-equipo {
-  width: 100%;
+.acerca-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
   padding: 20px;
 }
 
-.main-equipo h2 {
+.acerca-text-container h3 {
+  width: 100%;
   text-align: center;
+  color: #3e5255;
   font-size: 30px;
 }
 
-.main-equipo p {
-  margin-top: 20px;
+.acerca-text-container h4 {
+  color: #7a7a7a;
+  font-size: 27px;
+  text-align: center;
+}
+
+.acerca-text-container p {
   font-size: 18px;
   text-align: justify;
+  color: rgb(0, 0, 0, 0.5);
 }
 
-/* Dentistas */
-
-.main-dentistas {
+.acerca-card {
   width: 100%;
-  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  border-radius: 30px 0 30px 0;
+  box-shadow: 0 0 10px 0 rgb(0, 0, 0, 0.3);
+  padding: 20px 40px;
 }
 
+.acerca-card span {
+  font-size: 20px;
+}
 
-
-/*  */
+.acerca-card a {
+  color: #000;
+  font-size: 20px;
+}
 
 @media (min-width: 767px) {
-
   .main-intro {
     padding: 50px;
-  }
-  
-  .main-intro p {
-    font-size: 22px;
+    text-align: left;
+    align-items: flex-start;
+    width: 70%;
+    padding: 110px;
+    gap: 40px;
   }
 
-  /*  */
+  /* Acerca */
 
-  .main-servicios {
-    padding: 50px;
-  }
-  
-  .servicios-cards {
+  .main-acerca {
     width: 100%;
+    padding: 10px 110px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: space-evenly;
+    grid-template-columns: 40% 60%;
+  }
+
+  .acerca-fig {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .acerca-fig img {
+    width: 100%;
+  }
+
+  .acerca-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
     gap: 20px;
+    padding: 20px;
   }
 
-  .servicios-card:hover {
-    opacity: 0.7;
-  }
-
-  .servicios-card h5 {
+  .acerca-text-container h3 {
+    width: 100%;
     font-size: 30px;
   }
 
-  /*  */
-
-  .main-equipo {
-    padding: 50px;
+  .acerca-text-container h4 {
+   color: #7a7a7a;
+    font-size: 27px;
   }
 
-  /*  */
-
-  .main-dentistas {
-    padding: 50px;
+  .acerca-text-container p {
+    font-size: 18px;
   }
-  
 
+  .acerca-card {
+    width: 50%;
+    gap: 5px;
+    padding: 30px 40px;
+  }
+
+  .acerca-card span {
+    font-size: 20px;
+  }
+
+  .acerca-card a {
+    font-size: 20px;
+  }
 }

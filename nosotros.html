@@ -1,306 +1,257 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smile Denta | Nosotros</title>
+    <link rel="stylesheet" href="./css/pages/nosotros/nosotros.css" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Smile Denta | Nosotros</title>
-  <link rel="stylesheet" href="./css/pages/nosotros/nosotros.css">
+    <!-- swiper js -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 
-  <!-- swiper js -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
 
-  <!-- Bootstrap Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+          "gtm.start": new Date().getTime(),
+          event: "gtm.js",
+        });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-TGBMJRCM");
+    </script>
+    <!-- End Google Tag Manager -->
+  </head>
 
-  <!-- Google Tag Manager -->
-  <script>(function (w, d, s, l, i) {
-      w[l] = w[l] || []; w[l].push({
-        'gtm.start':
-          new Date().getTime(), event: 'gtm.js'
-      }); var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-TGBMJRCM');</script>
-  <!-- End Google Tag Manager -->
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-TGBMJRCM"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
-</head>
-
-<body>
-
-
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TGBMJRCM" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-
-  <div class="container">
-
-    <nav class="navbar">
-      <div class="logo"><a href="/"><img src="./assets/img/comun/logo.jpg" alt="logo"></a></div>
-      <div class="menu-toggle" id="mobile-menu">
-        &#9776; <!-- Icono de menú -->
-      </div>
-      <ul class="nav-list">
-        <li><a href="/">Inicio</a></li>
-        <li><a href="/testimonios.html">Testimonios</a></li>
-        <li><a href="/nosotros.html">Sobre Nosotros</a></li>
-        <li><a href="/promociones.html">Promociones</a></li>
-        <li><a href="tel:56327212" target="_blank">Contacto</a></li>
-      </ul>
-    </nav>
-
-    <main class="container-main">
-
-      <section class="main-title">
-        <h1>Nosotros</h1>
-      </section>
-
-      <hr>
-
-      <section class="main-intro">
-        <p>Bienvenidos a Smile Denta, donde su salud bucal es nuestra prioridad. Desde hace más de 10 años, hemos estado
-          comprometidos a ofrecer atención dental de alta calidad en un ambiente acogedor y profesional.</p>
-      </section>
-
-      <hr>
-
-      <section class="main-servicios">
-        <h2>Servicios</h2>
-        <div class="servicios-cards">
-          <div class="servicios-card">
-            <h5>Odontología General</h5>
-          </div>
-
-          <div class="servicios-card">
-            <h5>Odontopediatría</h5>
-          </div>
-
-
-          <div class="servicios-card">
-            <h5>Ortodoncia</h5>
-          </div>
-
-
-          <div class="servicios-card">
-            <h5>Implantes Dentales</h5>
-          </div>
-
-
-          <div class="servicios-card">
-            <h5>Estética Dental</h5>
-          </div>
-
-
-          <div class="servicios-card">
-            <h5>Endodoncia</h5>
-          </div>
+    <div class="container">
+      <nav class="navbar">
+        <div class="logo">
+          <a href="/"><img src="./assets/img/comun/logo.jpg" alt="logo" /></a>
         </div>
-      </section>
-
-      <hr>
-
-      <section class="main-equipo">
-        <h2>Nuestro Equipo</h2>
-        <p>Nuestro Equipo
-          Contamos con un equipo de dentistas y profesionales de la salud dental altamente capacitados y con
-          experiencia. Cada miembro de nuestro equipo se dedica a brindar un servicio personalizado, escuchando sus
-          necesidades y preocupaciones para ofrecerle el mejor tratamiento posible.</p>
-      </section>
-
-      <section class="main-dentistas">
-
-        <!-- Slider main container -->
-        <div class="swiper">
-          <!-- Additional required wrapper -->
-          <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide">
-              <div class="slide-card-dentista">
-                <div class="dentista-card-image">
-                  <img class="dentista-img" src="./assets/img/doctores/doctora-yareli.png" alt="">
-                </div>
-
-                <div class="dentista-card-text">
-                  <p>Yareli Y. Soto Guzman</p>
-                  <p>Cirujana Dentista UNAM 2013</p>
-                  <p>Especialista en Endoperiodontologia 2017</p>
-                  <p>Diplomado en estética dental 2020</p>
-                  <p>10 años de experiencia</p>
-                  <p>Fundadora de SMILE DENTA desde 2013</p>
-                </div>
-              </div>
-
-            </div>
-            <div class="swiper-slide">
-              <div class="slide-card-dentista">
-                <div class="dentista-card-image">
-                  <img class="dentista-img" src="./assets/img/doctores/doctor-adrian.png" alt="">
-                </div>
-
-                <div class="dentista-card-text">
-                  <p>Adrian luna godoy</p>
-                  <p>Cirujano Dentista UNAM 2011</p>
-                  <p>Especialidad en Ortodoncia en UNAM 2016 </p>
-                  <p>Práctica privada enfocada exclusivamente en Ortodoncia y ortopedia maxilifacial </p>
-                  <p>certificación de Invisalign en el 2018</p>
-                  <p>10 años de experiencia</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="swiper-slide">
-              <div class="slide-card-dentista">
-                <div class="dentista-card-image">
-                  <img class="dentista-img" src="./assets/img/doctores/doctora-paola.png" alt="">
-                </div>
-
-                <div class="dentista-card-text">
-                  <p>Paola solares juarez </p>
-                  <p>Cirujana Dentista UNAM 2013</p>
-                  <p>Especialista en Cirujana Bucal con 8 años de experiencia en cirugía y patología bucal </p>
-                  <p>Docente en cirugía, con diplomado en implantologia y rehabilitacion</p>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="slide-card-dentista">
-                <div class="dentista-card-image">
-                  <img class="dentista-img" src="./assets/img/doctores/doctor-juan.png" alt="">
-                </div>
-
-                <div class="dentista-card-text">
-
-                  <p>Juan Antonio Esquivel Sánchez</p>
-                  <p>Cirujano Dentista Facultad de Estudios Superiores Zaragoza, UNAM</p>
-                  <p>Dentista General, Prevención, Operatoria.</p>
-                  <p>5 años de Experiencia clínica.</p>
-                </div>
-              </div>
-            </div>
-
-
-            <div class="swiper-slide">
-              <div class="slide-card-dentista">
-                <div class="dentista-card-image">
-                  <img class="dentista-img" src="" alt="">
-                </div>
-                <div class="dentista-card-text">
-                  <p>Julio cesar reyes </p>
-                  <p>Cirujano dentista 2013</p>
-                  <p>Egresado de la facultad de odontología encargado de la área de laboratorio dental 100% digital </p>
-                  <p>creador de digital ceramics</p>
-                  <p>7 años de experiencia en el área </p>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <!-- If we need pagination -->
-          <div class="swiper-pagination"></div>
-
-          <!-- If we need navigation buttons -->
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
-
-          <!-- If we need scrollbar -->
-          <div class="swiper-scrollbar"></div>
+        <div class="menu-toggle" id="mobile-menu">
+          &#9776;
+          <!-- Icono de menú -->
         </div>
-
-      </section>
-
-      <section class="main-btn">
-        <a target="_blank" href="tel:56327212">
-          <i class="bi bi-telephone-fill btn-tel"></i>
-        </a>
-        <a target="_blank" href="https://api.whatsapp.com/send?phone=525549082548">
-          <i class="bi bi-whatsapp btn-wa"></i>
-        </a>
-      </section>
-
-    </main>
-
-
-
-    <footer class="container-footer">
-
-      <div class="footer-info">
-
-        <div class="footer-info-contacto">
-          <p class="footer-logo">Smile Denta</p>
-          <p class="footer-contacto-text">
-            Encuentra la mejor atención dental en nuestra clínica.
-          </p>
-          <br>
-          <p>
-            ¡No esperes más para obtener la sonrisa que siempre has deseado!
-          </p>
-
-          <br>
-          <ul class="footer-contacto-numeros">
-            <li class="footer-contacto-numero">
-              Teléfonos Móvil: <a href="#">55-4908-2548</a>
-            </li>
-            <li class="footer-contacto-numero">
-              Fijo: <a href="#">55-5632-7212</a>
-            </li>
-          </ul>
-          <h4>Horario de atención</h4>
-          <ul>
-            <li class="footer-horario-item">Lunes a viernes: 9:00- 20:00 hrs</li>
-            <li class="footer-horario-item">Sábados: 9:00 - 15:00 hrs</li>
-          </ul>
-        </div>
-
-        <ul class="footer-info-nav">
-          <li class="footer-nav-item">
-            <h4>Menú</h4>
-          </li>
-          <li class="footer-nav-item">
-            <a href="/">Inicio</a>
-          </li>
-          <li class="footer-nav-item">
-            <a href="/testimonios.html">Testimonios</a>
-          </li>
-          <li class="footer-nav-item">
-            <a href="/nosotros.html">Sobre nosotros</a>
-          </li>
-          <li class="footer-nav-item">
-            <a href="/promociones.html">Promociones</a>
-          </li>
-          <li class="footer-nav-item">
-            <a href="/contacto.html">Contacto</a>
-          </li>
+        <ul class="nav-list">
+          <li><a href="/">Inicio</a></li>
+          <li><a href="/testimonios.html">Testimonios</a></li>
+          <li><a href="/nosotros.html">Sobre Nosotros</a></li>
+          <li><a href="/promociones.html">Promociones</a></li>
+          <li><a href="tel:56327212" target="_blank">Contacto</a></li>
         </ul>
+      </nav>
 
-        <div class="footer-info-map">
-          <p class="footer-map-text">
-            Dirección Mariquita Sánchez 34, Culhuacán CTM, IV, Coyoacán, 04480 Ciudad de México, CDMX.
+      <main class="container-main">
+        <section class="main-intro">
+          <h2>Sobre Nosotros</h2>
+          <h3>Una década creando sonrisas saludables y felices.</h3>
+          <p>
+            Con más de 10 años en el campo dental, nuestro equipo profesional ha
+            estado al frente de la innovación, ética y compromiso, brindando
+            servicios integrales que superan las expectativas de nuestros
+            pacientes.
           </p>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d470.62302978839944!2d-99.11636899902415!3d19.32649023486311!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce01ef13603545%3A0x926127c5707451da!2sSmile%20Denta!5e0!3m2!1ses-419!2smx!4v1730313446147!5m2!1ses-419!2smx"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section class="main-acerca">
+          <figure class="acerca-fig">
+            <img
+              src="./assets/img/nosotros/doctora-yareli.jpeg"
+              alt="Doctora Yareli"
+            />
+          </figure>
+          <div class="acerca-text-container">
+            <h3>Conozca más acerca de Smile Denta</h3>
+            <h4>
+              Nuestra pasión por la salud bucal y la atención personalizada al
+              paciente.
+            </h4>
+            <p>
+              En Smile Denta ofrecemos servicios dentales de alta calidad en un
+              ambiente acogedor. Nuestro equipo de profesionales experimentados
+              escucha tus preocupaciones y te brindamos planes de tratamiento
+              personalizados. Utilizamos la última tecnología dental para
+              proporcionarte la mejor atención posible, incluyendo limpiezas,
+              eliminación de caries, implantes dentales y procedimientos
+              esteticos. Smile Denta está dedicado a ayudar a los pacientes a
+              mantener su salud bucal y lograr una hermosa sonrisa.
+            </p>
+            <div class="acerca-card">
+              <span>Telefono</span>
+              <a href="tel:5549082548">55-4908-2548</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="main-btn">
+          <a target="_blank" href="tel:56327212">
+            <i class="bi bi-telephone-fill btn-tel"></i>
+          </a>
+          <a
+            target="_blank"
+            href="https://api.whatsapp.com/send?phone=525549082548"
+          >
+            <i class="bi bi-whatsapp btn-wa"></i>
+          </a>
+        </section>
+      </main>
+
+      <footer class="container-footer">
+        <div class="footer-info">
+          <div class="footer-info-contacto">
+            <img src="./assets/img/comun/logo-footer.jpg" class="footer-logo" />
+            <p class="footer-contacto-text">
+              Encuentra la mejor atención dental en nuestra clínica. Para
+              agendar una consulta con nuestros expertos profesionales.
+            </p>
+            <p class="footer-contacto-text">
+              ¡No esperes más para obtener la sonrisa que siempre has deseado!
+            </p>
+
+            <br />
+            <div class="footer-info-card">
+              <a
+                class="footer-info-card-icon"
+                href="https://maps.app.goo.gl/3zWmNHo4t3DxYeag8"
+                target="_blank"
+              >
+                <i class="bi bi-geo-alt-fill"></i>
+              </a>
+              <div class="footer-info-card-text">
+                <a
+                  class="footer-info-card-text-title"
+                  href="https://maps.app.goo.gl/3zWmNHo4t3DxYeag8"
+                  target="_blank"
+                  >Dirección</a
+                >
+                <span
+                  >Mariquita Sánchez 34, Culhuacán CTM, IV, Coyoacán, 04480
+                  Ciudad de México, CDMX.</span
+                >
+              </div>
+            </div>
+
+            <div class="footer-info-card">
+              <a
+                class="footer-info-card-icon"
+                href="tel:56327212"
+                target="_blank"
+              >
+                <i class="bi bi-telephone-fill"></i>
+              </a>
+              <div class="footer-info-card-text">
+                <a
+                  class="footer-info-card-text-title"
+                  href="https://maps.app.goo.gl/3zWmNHo4t3DxYeag8"
+                  target="_blank"
+                  >Teléfonos</a
+                >
+                <span
+                  ><strong>Móvil:</strong
+                  ><a href="tel:5549082548" class="footer-info-card-text-number"
+                    >55-4908-2548</a
+                  ></span
+                >
+                <span
+                  ><strong>Fijo:</strong
+                  ><a href="tel:56327212" class="footer-info-card-text-number"
+                    >55-5632-7212</a
+                  ></span
+                >
+              </div>
+            </div>
+
+            <div class="footer-info-card">
+              <span class="footer-info-card-icon">
+                <i class="bi bi-clock"></i>
+              </span>
+              <div class="footer-info-card-text">
+                <span class="footer-info-card-text-title" target="_blank"
+                  >Horario de Atención</span
+                >
+                <span>Lunes a viernes: 9:00 - 20:00 hrs.</span>
+                <span>Sábados: 9:00 - 15:00 hrs.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-nav">
+            <div class="footer-nav-text">
+              <span
+                >¡No esperes más para reservar una cita en nuestra clínica
+                dental y empezar a cuidar de tu sonrisa!</span
+              >
+              <a
+                target="_blank"
+                href="https://api.whatsapp.com/send?phone=525549082548"
+                >Agendar una cita</a
+              >
+            </div>
+
+            <ul class="footer-info-nav">
+              <li class="footer-nav-item">
+                <h4>Menú</h4>
+              </li>
+              <li class="footer-nav-item">
+                <a href="/">Inicio</a>
+              </li>
+              <li class="footer-nav-item">
+                <a href="/testimonios.html">Testimonios</a>
+              </li>
+              <li class="footer-nav-item">
+                <a href="/nosotros.html">Sobre nosotros</a>
+              </li>
+              <li class="footer-nav-item">
+                <a href="/promociones.html">Promociones</a>
+              </li>
+              <li class="footer-nav-item">
+                <a href="/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
         </div>
 
-      </div>
+        <div class="footer-copy">
+          <hr />
+          <span
+            >Copyright Smile Denta 2024 Smile Dental |
+            <a href="https://dentarios.com.mx/" target="_blank"
+              >Powered by Dentarios</a
+            >
+          </span>
+        </div>
+      </footer>
+    </div>
 
-      <div class="footer-copy">
-        <hr>
-        <span>Copyright Smile Denta 2024 Smile Dental | <a href="https://dentarios.com.mx/">Powered by Dentarios</a>
-        </span>
-      </div>
-
-    </footer>
-
-  </div>
-
-
-  <script src="./js/swiper.js"></script>
-  <script src="./js/menu.js"></script>
-
-</body>
-
+    <script src="./js/swiper.js"></script>
+    <script src="./js/menu.js"></script>
+  </body>
 </html>
