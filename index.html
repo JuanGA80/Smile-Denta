@@ -1,473 +1,501 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Smile Denta | Inicio</title>
-    <link rel="stylesheet" href="./css/pages/index.css" />
 
-    <!-- swiper js -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smile Denta | Inicio</title>
+  <link rel="stylesheet" href="./css/pages/index.css" />
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- swiper js -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
-    <!-- Bootstrap Icons -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-    <!-- Google Tag Manager -->
-    <script>
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-          "gtm.start": new Date().getTime(),
-          event: "gtm.js",
-        });
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != "dataLayer" ? "&l=" + l : "";
-        j.async = true;
-        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, "script", "dataLayer", "GTM-TGBMJRCM");
-    </script>
-    <!-- End Google Tag Manager -->
-  </head>
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
 
-  <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript
-      ><iframe
-        src="https://www.googletagmanager.com/ns.html?id=GTM-TGBMJRCM"
-        height="0"
-        width="0"
-        style="display: none; visibility: hidden"
-      ></iframe
-    ></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        "gtm.start": new Date().getTime(),
+        event: "gtm.js",
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != "dataLayer" ? "&l=" + l : "";
+      j.async = true;
+      j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, "script", "dataLayer", "GTM-TGBMJRCM");
+  </script>
+  <!-- End Google Tag Manager -->
+</head>
 
-    <div class="container">
-      <nav class="navbar">
-        <div class="logo">
-          <a href="/"><img src="./assets/img/comun/logo.jpg" alt="logo" /></a>
-        </div>
-        <div class="menu-toggle" id="mobile-menu">
-          &#9776;
-          <!-- Icono de menú -->
-        </div>
-        <ul class="nav-list">
-          <li><a href="/">Inicio</a></li>
-          <li><a href="/testimonios.html">Testimonios</a></li>
-          <li><a href="/nosotros.html">Sobre Nosotros</a></li>
-          <li><a href="/promociones.html">Promociones</a></li>
-          <li><a href="tel:56327212" target="_blank">Contacto</a></li>
-        </ul>
-      </nav>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TGBMJRCM" height="0" width="0"
+      style="display: none; visibility: hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 
-      <main class="container-main">
-        <section class="main-banner">
-          <div class="banner-text">
-            <h3>Creando sonrisas saludables y felices</h3>
-            <div class="banner-text-list">
-              <p>
-                Más de 10 años brindando atención dental integral y de calidad.
-              </p>
+  <div class="container">
+    <nav class="navbar">
+      <div class="logo">
+        <a href="/"><img src="./assets/img/comun/logo.jpg" alt="logo" /></a>
+      </div>
+      <div class="menu-toggle" id="mobile-menu">
+        &#9776;
+        <!-- Icono de menú -->
+      </div>
+      <ul class="nav-list">
+        <li><a href="/">Inicio</a></li>
+        <li><a href="/testimonios.html">Testimonios</a></li>
+        <li><a href="/nosotros.html">Sobre Nosotros</a></li>
+        <li><a href="/promociones.html">Promociones</a></li>
+        <li><a href="tel:56327212" target="_blank">Contacto</a></li>
+      </ul>
+    </nav>
 
-              <a class="banner-agendar" href="#">Agendar cita</a>
-
-              <div class="banner-cards">
-                <div class="banner-card banner-card-treatment">
-                  <h5 class="banner-card-title">TRATAMIENTOS</h5>
-                  <span>Toda nuestra experiencia a tu servicio</span>
-                  <img
-                    class="banner-card-icon"
-                    src="./assets/img/comun/btn-arrow-right.png"
-                    alt=""
-                  />
-                </div>
-
-                <div class="banner-card banner-card-time">
-                  <h5 class="banner-card-title">HORARIOS</h5>
-                  <ul>
-                    <li>Lunes a viernes <br />de 8 am a 8 pm</li>
-                    <br />
-                    <li>Sábados <br />de 9 am a 3 pm</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="banner-image">
-            <img
-              class="banner-img"
-              src="./assets/img/comun/dentista-yareli.webp"
-              alt="Dra Yareli"
-            />
-          </div>
-        </section>
-
-        <article class="intro-titles">
-          <h2>SMILE DENTA</h2>
-          <h3>Es calidad de vida</h3>
-        </article>
-
-        <section class="main-intro">
-          <div class="intro-texto">
-            <h3>Cuidar la salud es lo más importante</h3>
+    <main class="container-main">
+      <section class="main-banner">
+        <div class="banner-text">
+          <h3>Creando sonrisas saludables y felices</h3>
+          <div class="banner-text-list">
             <p>
-              Cuidar nuestra salud es fundamental para poder disfrutar de una
-              buena calidad de vida. Cuando hablamos de la salud, no sólo nos
-              referimos al estado físico, sino también al emocional y mental.
-              Por ello es importante prestar atención a nuestra higiene bucal y
-              visitar regularmente a nuestro dentista.
-            </p>
-          </div>
-          <div class="intro-imagenes">
-            <figure class="intro-imagen-fig intro-imagen-1">
-              <img src="./assets/img/inicio/intro-img-1.jpg" alt="" />
-            </figure>
-            <figure class="intro-imagen-fig">
-              <img src="./assets/img/inicio/intro-img-2.webp" alt="" />
-            </figure>
-          </div>
-        </section>
-
-        <section class="main-promos">
-          <h2 class="promos-title">Nuestras promociones</h2>
-          <div class="promos-galery">
-            <a
-              class="promos-item promos-img-princ"
-              href="https://api.whatsapp.com/send?phone=525549082548"
-              target="_blank"
-            >
-              <img
-                class="promos-img"
-                src="./assets/img/promos/promo-1.webp"
-                alt=""
-              />
-            </a>
-            <a
-              class="promos-item"
-              href="https://api.whatsapp.com/send?phone=525549082548"
-              target="_blank"
-            >
-              <img
-                class="promos-img"
-                src="./assets/img/promos/promo-buen-fin-1.webp"
-                alt=""
-              />
-            </a>
-            <a
-              class="promos-item"
-              href="https://api.whatsapp.com/send?phone=525549082548"
-              target="_blank"
-            >
-              <img
-                class="promos-img"
-                src="./assets/img/promos/promo-buen-fin-2.webp"
-                alt=""
-              />
-            </a>
-            <a
-              class="promos-item"
-              href="https://api.whatsapp.com/send?phone=525549082548"
-              target="_blank"
-            >
-              <img
-                class="promos-img"
-                src="./assets/img/promos/promo-buen-fin-3.webp"
-                alt=""
-              />
-            </a>
-          </div>
-          <div class="promos-contact">
-            <a
-              href="https://api.whatsapp.com/send?phone=525549082548"
-              target="_blank"
-              >Contáctanos</a
-            >
-          </div>
-        </section>
-
-        <section class="main-agendar">
-          <div class="agendar-text">
-            <h2 class="agendar-title">Agenda <br />Una Cita</h2>
-            <p>
-              ¡Cuida tu sonrisa como nunca antes! Agenda una cita en Smile
-              Dental y descubre el poder de una sonrisa radiante. Nuestro equipo
-              de expertos en odontología te ofrecerá el mejor cuidado para tus
-              dientes y encías, utilizando la tecnología más avanzada y las
-              técnicas más efectivas del mercado. No dejes que los problemas
-              dentales te afecten en tu día a día, mejora tu salud bucal con
-              Smile Dental y luce una sonrisa saludable y hermosa. ¡Agenda tu
-              cita hoy mismo!
-            </p>
-            <a href="https://api.whatsapp.com/send?phone=525549082548"
-              >Agendar Cita</a
-            >
-          </div>
-          <div class="agendar-cards">
-            <div class="agendar-card">
-              <h4>
-                Consulta <br />
-                De valoración
-              </h4>
-              <a href="https://api.whatsapp.com/send?phone=525549082548">
-                <img
-                  class="agendar-card-icon"
-                  src="./assets/img/comun/btn-arrow-right.png"
-                  alt=""
-                />
-              </a>
-            </div>
-            <div class="agendar-card">
-              <a href="#">Clic aquí para ver horarios disponibles</a>
-            </div>
-          </div>
-        </section>
-
-        <section class="main-dentistas">
-          <h2 class="dentistas-title">Dentistas</h2>
-          <h2 class="dentistas-subtitle">Certificados</h2>
-          <div class="dentistas-cards">
-            <div class="dentistas-card">
-              <img
-                class="dentista-card-img"
-                src="./assets/img/doctores/dentista-yareli.webp"
-                alt="Doctora Yareli"
-              />
-              <span class="dentista-card-nombre">Yareli Y. Soto Guzmán</span>
-              <span class="dentista-card-cargo">Cirujana Dentista</span>
-              <span class="dentista-card-exp"
-                >10 años de experiencia Fundadora</span
-              >
-            </div>
-            <div class="dentistas-card">
-              <img
-                class="dentista-card-img"
-                src="./assets/img/doctores/dentista-juan.webp"
-                alt="Doctora Yareli"
-              />
-              <span class="dentista-card-nombre"
-                >Juan Antonio Esquivel Sánchez</span
-              >
-              <span class="dentista-card-cargo">Dentista General</span>
-              <span class="dentista-card-exp"
-                >5 años de experiencia clínica</span
-              >
-            </div>
-            <div class="dentistas-card">
-              <img
-                class="dentista-card-img"
-                src="./assets/img/doctores/dentista-adrian.webp"
-                alt="Doctora Yareli"
-              />
-              <span class="dentista-card-nombre">Adrian Luna Godoy</span>
-              <span class="dentista-card-cargo">Cirujano Dentista</span>
-              <span class="dentista-card-exp">10 años de experiencia</span>
-            </div>
-            <div class="dentistas-card">
-              <img
-                class="dentista-card-img"
-                src="./assets/img/doctores/dentista-paola.webp"
-                alt="Doctora Yareli"
-              />
-              <span class="dentista-card-nombre">Paola solares juarez</span>
-              <span class="dentista-card-cargo">Cirujana Dentista</span>
-              <span class="dentista-card-exp">8 años de experiencia</span>
-            </div>
-          </div>
-        </section>
-
-        <section class="main-pasos">
-          <div class="pasos-container">
-            <h2 class="pasos-title">Pasos a seguir</h2>
-            <ul class="pasos-list">
-              <li class="pasos-list-item">
-                <span class="pasos-list-number">1</span>
-                <h4>Agenda tu cita</h4>
-                <p>
-                  Ponte en contacto con notros, reserva tu espacio, puedes
-                  enviarnos un WhatsApp o llamarnos directamente.
-                </p>
-              </li>
-              <li class="pasos-list-item">
-                <span class="pasos-list-number">2</span>
-                <h4>Toma tu consulta de valoración</h4>
-                <p>
-                  La consulta de valoración dental incluye una evaluación dental
-                  completa, revisión de radiografías y una guía personalizada
-                  para mejorar y mantener tu salud dental.
-                </p>
-              </li>
-              <li class="pasos-list-item">
-                <span class="pasos-list-number">3</span>
-                <h4>Tratamiento</h4>
-                <p>
-                  Una vez diagnosticado el paciente recibirá toda la atención
-                  necesaria para que pueda volver a sonreír con confianza.
-                </p>
-              </li>
-            </ul>
-          </div>
-        </section>
-
-        <section class="main-btn">
-          <a target="_blank" href="tel:56327212">
-            <i class="bi bi-telephone-fill btn-tel"></i>
-          </a>
-          <a
-            target="_blank"
-            href="https://api.whatsapp.com/send?phone=525549082548"
-          >
-            <i class="bi bi-whatsapp btn-wa"></i>
-          </a>
-        </section>
-
-        <div class="footer-info-map">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d470.62302978839944!2d-99.11636899902415!3d19.32649023486311!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce01ef13603545%3A0x926127c5707451da!2sSmile%20Denta!5e0!3m2!1ses-419!2smx!4v1730313446147!5m2!1ses-419!2smx"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </div>
-      </main>
-
-      <footer class="container-footer">
-        <div class="footer-info">
-          <div class="footer-info-contacto">
-            <img src="./assets/img/comun/logo-footer.jpg" class="footer-logo" />
-            <p class="footer-contacto-text">
-              Encuentra la mejor atención dental en nuestra clínica. Para
-              agendar una consulta con nuestros expertos profesionales.
-            </p>
-            <p class="footer-contacto-text">
-              ¡No esperes más para obtener la sonrisa que siempre has deseado!
+              Más de 10 años brindando atención dental integral y de calidad.
             </p>
 
-            <br />
-            <div class="footer-info-card">
-              <a
-                class="footer-info-card-icon"
-                href="https://maps.app.goo.gl/3zWmNHo4t3DxYeag8"
-                target="_blank"
-              >
-                <i class="bi bi-geo-alt-fill"></i>
-              </a>
-              <div class="footer-info-card-text">
-                <a
-                  class="footer-info-card-text-title"
-                  href="https://maps.app.goo.gl/3zWmNHo4t3DxYeag8"
-                  target="_blank"
-                  >Dirección</a
-                >
-                <span
-                  >Mariquita Sánchez 34, Culhuacán CTM, IV, Coyoacán, 04480
-                  Ciudad de México, CDMX.</span
-                >
+            <a class="banner-agendar" href="#">Agendar cita</a>
+
+            <div class="banner-cards">
+              <div class="banner-card banner-card-treatment">
+                <h5 class="banner-card-title">TRATAMIENTOS</h5>
+                <span>Toda nuestra experiencia a tu servicio</span>
+                <img class="banner-card-icon" src="./assets/img/comun/btn-arrow-right.png" alt="" />
+              </div>
+
+              <div class="banner-card banner-card-time">
+                <h5 class="banner-card-title">HORARIOS</h5>
+                <ul>
+                  <li>Lunes a viernes <br />de 8 am a 8 pm</li>
+                  <br />
+                  <li>Sábados <br />de 9 am a 3 pm</li>
+                </ul>
               </div>
             </div>
-
-            <div class="footer-info-card">
-              <a
-                class="footer-info-card-icon"
-                href="tel:56327212"
-                target="_blank"
-              >
-                <i class="bi bi-telephone-fill"></i>
-              </a>
-              <div class="footer-info-card-text">
-                <a
-                  class="footer-info-card-text-title"
-                  href="https://maps.app.goo.gl/3zWmNHo4t3DxYeag8"
-                  target="_blank"
-                  >Teléfonos</a
-                >
-                <span
-                  ><strong>Móvil:</strong
-                  ><a href="tel:5549082548" class="footer-info-card-text-number"
-                    >55-4908-2548</a
-                  ></span
-                >
-                <span
-                  ><strong>Fijo:</strong
-                  ><a href="tel:56327212" class="footer-info-card-text-number"
-                    >55-5632-7212</a
-                  ></span
-                >
-              </div>
-            </div>
-
-            <div class="footer-info-card">
-              <span class="footer-info-card-icon">
-                <i class="bi bi-clock"></i>
-              </span>
-              <div class="footer-info-card-text">
-                <span class="footer-info-card-text-title" target="_blank"
-                  >Horario de Atención</span
-                >
-                <span>Lunes a viernes: 9:00 - 20:00 hrs.</span>
-                <span>Sábados: 9:00 - 15:00 hrs.</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="footer-nav">
-            <div class="footer-nav-text">
-              <span
-                >¡No esperes más para reservar una cita en nuestra clínica
-                dental y empezar a cuidar de tu sonrisa!</span
-              >
-              <a
-                target="_blank"
-                href="https://api.whatsapp.com/send?phone=525549082548"
-                >Agendar una cita</a
-              >
-            </div>
-
-            <ul class="footer-info-nav">
-              <li class="footer-nav-item">
-                <h4>Menú</h4>
-              </li>
-              <li class="footer-nav-item">
-                <a href="/">Inicio</a>
-              </li>
-              <li class="footer-nav-item">
-                <a href="/testimonios.html">Testimonios</a>
-              </li>
-              <li class="footer-nav-item">
-                <a href="/nosotros.html">Sobre nosotros</a>
-              </li>
-              <li class="footer-nav-item">
-                <a href="/promociones.html">Promociones</a>
-              </li>
-              <li class="footer-nav-item">
-                <a href="/contacto.html">Contacto</a>
-              </li>
-            </ul>
           </div>
         </div>
+        <div class="banner-image">
+          <img class="banner-img" src="./assets/img/comun/dentista-yareli.webp" alt="Dra Yareli" />
+        </div>
+      </section>
 
-        <div class="footer-copy">
-          <hr />
-          <span
-            >Copyright Smile Denta 2024 Smile Dental |
-            <a href="https://dentarios.com.mx/" target="_blank"
-              >Powered by Dentarios</a
-            >
+      <article class="intro-titles">
+        <h2>SMILE DENTA</h2>
+        <h3>Es calidad de vida</h3>
+      </article>
+
+      <section class="main-intro">
+        <div class="intro-texto">
+          <h3>Cuidar la salud es lo más importante</h3>
+          <p>
+            Cuidar nuestra salud es fundamental para poder disfrutar de una
+            buena calidad de vida. Cuando hablamos de la salud, no sólo nos
+            referimos al estado físico, sino también al emocional y mental.
+            Por ello es importante prestar atención a nuestra higiene bucal y
+            visitar regularmente a nuestro dentista.
+          </p>
+        </div>
+        <div class="intro-imagenes">
+          <figure class="intro-imagen-fig intro-imagen-1">
+            <img src="./assets/img/inicio/intro-img-1.jpg" alt="" />
+          </figure>
+          <figure class="intro-imagen-fig">
+            <img src="./assets/img/inicio/intro-img-2.webp" alt="" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="main-promos">
+        <h2 class="promos-title">Nuestras promociones</h2>
+        <div class="promos-galery">
+          <a class="promos-item promos-img-princ" href="https://api.whatsapp.com/send?phone=525549082548"
+            target="_blank">
+            <img class="promos-img" src="./assets/img/promos/promo-1.webp" alt="" />
+          </a>
+          <a class="promos-item" href="https://api.whatsapp.com/send?phone=525549082548" target="_blank">
+            <img class="promos-img" src="./assets/img/promos/promo-buen-fin-1.webp" alt="" />
+          </a>
+          <a class="promos-item" href="https://api.whatsapp.com/send?phone=525549082548" target="_blank">
+            <img class="promos-img" src="./assets/img/promos/promo-buen-fin-2.webp" alt="" />
+          </a>
+          <a class="promos-item" href="https://api.whatsapp.com/send?phone=525549082548" target="_blank">
+            <img class="promos-img" src="./assets/img/promos/promo-buen-fin-3.webp" alt="" />
+          </a>
+        </div>
+        <div class="promos-contact">
+          <a href="https://api.whatsapp.com/send?phone=525549082548" target="_blank">Contáctanos</a>
+        </div>
+      </section>
+
+      <section class="main-agendar">
+        <div class="agendar-text">
+          <h2 class="agendar-title">Agenda <br />Una Cita</h2>
+          <p>
+            ¡Cuida tu sonrisa como nunca antes! Agenda una cita en Smile
+            Dental y descubre el poder de una sonrisa radiante. Nuestro equipo
+            de expertos en odontología te ofrecerá el mejor cuidado para tus
+            dientes y encías, utilizando la tecnología más avanzada y las
+            técnicas más efectivas del mercado. No dejes que los problemas
+            dentales te afecten en tu día a día, mejora tu salud bucal con
+            Smile Dental y luce una sonrisa saludable y hermosa. ¡Agenda tu
+            cita hoy mismo!
+          </p>
+          <a href="https://api.whatsapp.com/send?phone=525549082548">Agendar Cita</a>
+        </div>
+        <div class="agendar-cards">
+          <div class="agendar-card">
+            <h4>
+              Consulta <br />
+              De valoración
+            </h4>
+            <a href="https://api.whatsapp.com/send?phone=525549082548">
+              <img class="agendar-card-icon" src="./assets/img/comun/btn-arrow-right.png" alt="" />
+            </a>
+          </div>
+          <div class="agendar-card">
+            <a href="#">Clic aquí para ver horarios disponibles</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-tratamientos">
+        <div class="tratamientos-text-container">
+          <h2>Tratamientos</h2>
+          <span>
+            Priorizamos ayudarte a sonreír con confianza y ofrecemos 
+            tratamientos dentales personalizados para satisfacer tus
+            necesidades únicas.
           </span>
         </div>
-      </footer>
-    </div>
+        <div class="tratamientos-item tratamiento-valoracion">
+          <div class="tratamientos-item-text">
+            <span>Consulta de valoración</span>
+            <span>¡Descubre tu mejor versión!</span>
+          </div>
+        </div>
+        <div class="tratamientos-item tratamiento-protesis">
+          <div class="tratamientos-item-text">
+            <span>Prótesis fija</span>
+            <span>
+              ¡Recupera tu tranquilidad! ven a una consulta
+              de valoración 
+            </span>
+          </div>
+        </div>
+        <div class="tratamientos-item tratamientos-odontopediatria">
+          <div class="tratamientos-item-text">
+            <span>Odontopediatria</span>
+            <span>
+              ¡Sonrisas saludables desde pequeños!
+            </span>
+          </div>
+        </div> 
+        <div class="tratamientos-item tratamientos-periodoncia">
+          <div class="tratamientos-item-text">
+            <span>Periodoncia</span>
+            <span>
+              ¡Protege tus encías!
+            </span>
+          </div>
+        </div>
 
-    <script src="./js/swiper.js"></script>
-    <script src="./js/menu.js"></script>
-  </body>
+      </section>
+      
+
+      <section class="main-testimonios">
+        <figure class="testimonios-fig">
+          <img src="./assets/img/inicio/testimonio-img.png" alt="">
+        </figure>
+        <div class="testimonios-text-container">
+          <h2>Lo que nuestros pacientes</h2>
+          <h4>Opinan de nosotros</h4>
+          <p>
+            Bienvenido/a a nuestra sección de reseñas, donde podrás
+            encontrar comentarios y evaluaciones honestas de nuestros
+            principales tratamientos Queremos ayudarte a tomar
+            decisiones informadas, por lo que no dudes en dejar tu
+            propia reseña y calificación. . ¡Comencemos a encontrar la
+            información que necesitas para tomar decisiones
+            inteligentes!
+          </p>
+          <!-- Slider main container -->
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <article class="testimonio-card">
+                  <p>
+                    Mi experiencia en Smile Denta fue excelente. Desde
+                    el ambiente acogedor hasta el tratamiento dental
+                    de alta tecnología, me sentí bien atendida y
+                    cuidada. El personal fue muy amable y me dio toda
+                    la información que necesitaba. ¡Gracias!
+                  </p>
+                  <div class="testimonio-card-user">
+                    <img src="./assets/img/inicio/paciente-1.png" alt="">
+                    <div class="testimonio-user-datos">
+                      <span class="testimonio-user-name">Frida Huerta</span>
+                      <span class="testimonio-user-cargo">Paciente</span>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article class="testimonio-card">
+                  <p>
+                    Me encantó visitar Smile Denta por mi tratamiento
+                    de endodoncia. El procedimiento fue rápido e
+                    indoloro, con opciones explicadas antes de
+                    comenzar. En general, estoy muy satisfecho y
+                    recomendaría
+                    Smile Denta a cualquiera para tratamiento dental
+                    de calidad.
+                  </p>
+                  <div class="testimonio-card-user">
+                    <img src="./assets/img/inicio/paciente-2.png" alt="">
+                    <div class="testimonio-user-datos">
+                      <span class="testimonio-user-name">Erik Tovar</span>
+                      <span class="testimonio-user-cargo">Paciente</span>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article class="testimonio-card">
+                  <p>
+                    ¡Estoy tan emocionada! Acabo de tener mi primer
+                    blanqueamiento dental y mi sonrisa nunca se ha
+                    visto mejor. Fue un proceso rápido y sin dolor y
+                    mi dentista fue increíblemente amable y servicial.
+                    Me encanta cómo mis dientes parecen más blancos y
+                    brillantes.
+                  </p>
+                  <div class="testimonio-card-user">
+                    <img src="./assets/img/inicio/paciente-3.png" alt="">
+                    <div class="testimonio-user-datos">
+                      <span class="testimonio-user-name">Ana Benitez</span>
+                      <span class="testimonio-user-cargo">Paciente</span>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article class="testimonio-card">
+                  <p>
+                    Smile Denta fue increíble. El equipo me dio una
+                    cálida bienvenida y la Dra. Yare fue muy
+                    profesional. Recomiendo Smile Denta a cualquier
+                    persona necesitada de atención dental de calidad.
+                    Estoy agradecido por la experiencia sin dolor.
+                    Volveré para cualquier otra necesidad dental.
+                  </p>
+                  <div class="testimonio-card-user">
+                    <img src="./assets/img/inicio/paciente-4.png" alt="">
+                    <div class="testimonio-user-datos">
+                      <span class="testimonio-user-name">Javier Mendez</span>
+                      <span class="testimonio-user-cargo">Paciente</span>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <section class="main-dentistas">
+        <h2 class="dentistas-title">Dentistas</h2>
+        <h2 class="dentistas-subtitle">Certificados</h2>
+        <div class="dentistas-cards">
+          <div class="dentistas-card">
+            <img class="dentista-card-img" src="./assets/img/doctores/dentista-yareli.webp" alt="Doctora Yareli" />
+            <span class="dentista-card-nombre">Yareli Y. Soto Guzmán</span>
+            <span class="dentista-card-cargo">Cirujana Dentista</span>
+            <span class="dentista-card-exp">10 años de experiencia Fundadora</span>
+          </div>
+          <div class="dentistas-card">
+            <img class="dentista-card-img" src="./assets/img/doctores/dentista-juan.webp" alt="Doctora Yareli" />
+            <span class="dentista-card-nombre">Juan Antonio Esquivel Sánchez</span>
+            <span class="dentista-card-cargo">Dentista General</span>
+            <span class="dentista-card-exp">5 años de experiencia clínica</span>
+          </div>
+          <div class="dentistas-card">
+            <img class="dentista-card-img" src="./assets/img/doctores/dentista-adrian.webp" alt="Doctora Yareli" />
+            <span class="dentista-card-nombre">Adrian Luna Godoy</span>
+            <span class="dentista-card-cargo">Cirujano Dentista</span>
+            <span class="dentista-card-exp">10 años de experiencia</span>
+          </div>
+          <div class="dentistas-card">
+            <img class="dentista-card-img" src="./assets/img/doctores/dentista-paola.webp" alt="Doctora Yareli" />
+            <span class="dentista-card-nombre">Paola solares juarez</span>
+            <span class="dentista-card-cargo">Cirujana Dentista</span>
+            <span class="dentista-card-exp">8 años de experiencia</span>
+          </div>
+        </div>
+      </section>
+
+
+
+
+      <section class="main-pasos">
+        <div class="pasos-container">
+          <h2 class="pasos-title">Pasos a seguir</h2>
+          <ul class="pasos-list">
+            <li class="pasos-list-item">
+              <span class="pasos-list-number">1</span>
+              <h4>Agenda tu cita</h4>
+              <p>
+                Ponte en contacto con notros, reserva tu espacio, puedes
+                enviarnos un WhatsApp o llamarnos directamente.
+              </p>
+            </li>
+            <li class="pasos-list-item">
+              <span class="pasos-list-number">2</span>
+              <h4>Toma tu consulta de valoración</h4>
+              <p>
+                La consulta de valoración dental incluye una evaluación dental
+                completa, revisión de radiografías y una guía personalizada
+                para mejorar y mantener tu salud dental.
+              </p>
+            </li>
+            <li class="pasos-list-item">
+              <span class="pasos-list-number">3</span>
+              <h4>Tratamiento</h4>
+              <p>
+                Una vez diagnosticado el paciente recibirá toda la atención
+                necesaria para que pueda volver a sonreír con confianza.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="main-btn">
+        <a target="_blank" href="tel:56327212">
+          <i class="bi bi-telephone-fill btn-tel"></i>
+        </a>
+        <a target="_blank" href="https://api.whatsapp.com/send?phone=525549082548">
+          <i class="bi bi-whatsapp btn-wa"></i>
+        </a>
+      </section>
+
+      <div class="footer-info-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d470.62302978839944!2d-99.11636899902415!3d19.32649023486311!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce01ef13603545%3A0x926127c5707451da!2sSmile%20Denta!5e0!3m2!1ses-419!2smx!4v1730313446147!5m2!1ses-419!2smx"
+          style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </main>
+
+    <footer class="container-footer">
+      <div class="footer-info">
+        <div class="footer-info-contacto">
+          <img src="./assets/img/comun/logo-footer.jpg" class="footer-logo" />
+          <p class="footer-contacto-text">
+            Encuentra la mejor atención dental en nuestra clínica. Para
+            agendar una consulta con nuestros expertos profesionales.
+          </p>
+          <p class="footer-contacto-text">
+            ¡No esperes más para obtener la sonrisa que siempre has deseado!
+          </p>
+
+          <br />
+          <div class="footer-info-card">
+            <a class="footer-info-card-icon" href="https://maps.app.goo.gl/3zWmNHo4t3DxYeag8" target="_blank">
+              <i class="bi bi-geo-alt-fill"></i>
+            </a>
+            <div class="footer-info-card-text">
+              <a class="footer-info-card-text-title" href="https://maps.app.goo.gl/3zWmNHo4t3DxYeag8"
+                target="_blank">Dirección</a>
+              <span>Mariquita Sánchez 34, Culhuacán CTM, IV, Coyoacán, 04480
+                Ciudad de México, CDMX.</span>
+            </div>
+          </div>
+
+          <div class="footer-info-card">
+            <a class="footer-info-card-icon" href="tel:56327212" target="_blank">
+              <i class="bi bi-telephone-fill"></i>
+            </a>
+            <div class="footer-info-card-text">
+              <a class="footer-info-card-text-title" href="https://maps.app.goo.gl/3zWmNHo4t3DxYeag8"
+                target="_blank">Teléfonos</a>
+              <span><strong>Móvil:</strong><a href="tel:5549082548"
+                  class="footer-info-card-text-number">55-4908-2548</a></span>
+              <span><strong>Fijo:</strong><a href="tel:56327212"
+                  class="footer-info-card-text-number">55-5632-7212</a></span>
+            </div>
+          </div>
+
+          <div class="footer-info-card">
+            <span class="footer-info-card-icon">
+              <i class="bi bi-clock"></i>
+            </span>
+            <div class="footer-info-card-text">
+              <span class="footer-info-card-text-title" target="_blank">Horario de Atención</span>
+              <span>Lunes a viernes: 9:00 - 20:00 hrs.</span>
+              <span>Sábados: 9:00 - 15:00 hrs.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-nav">
+          <div class="footer-nav-text">
+            <span>¡No esperes más para reservar una cita en nuestra clínica
+              dental y empezar a cuidar de tu sonrisa!</span>
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=525549082548">Agendar una cita</a>
+          </div>
+
+          <ul class="footer-info-nav">
+            <li class="footer-nav-item">
+              <h4>Menú</h4>
+            </li>
+            <li class="footer-nav-item">
+              <a href="/">Inicio</a>
+            </li>
+            <li class="footer-nav-item">
+              <a href="/testimonios.html">Testimonios</a>
+            </li>
+            <li class="footer-nav-item">
+              <a href="/nosotros.html">Sobre nosotros</a>
+            </li>
+            <li class="footer-nav-item">
+              <a href="/promociones.html">Promociones</a>
+            </li>
+            <li class="footer-nav-item">
+              <a href="/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-copy">
+        <hr />
+        <span>Copyright Smile Denta 2024 Smile Dental |
+          <a href="https://dentarios.com.mx/" target="_blank">Powered by Dentarios</a>
+        </span>
+      </div>
+    </footer>
+  </div>
+
+  <script src="./js/swiper.js"></script>
+  <script src="./js/menu.js"></script>
+</body>
+
 </html>
