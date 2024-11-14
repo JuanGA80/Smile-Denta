@@ -61,7 +61,7 @@
 }
 
 .testimonio-video {
-  width: 50%;
+  width: 100%;
 }
 
 .testimonio-text {
@@ -136,7 +136,8 @@
   }
 
   .testimonio-video {
-    width: 70%;
+    width: 50%;
+    max-width: 70%;
   }
 
   /* Galeria */
@@ -159,11 +160,14 @@
     display: grid;
     padding: 100px;
     grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto auto;
     gap: 40px;
   }
 
   .transform-video {
-    width: 80%;
+    width: 60%;
+    aspect-ratio: 9/12;
+    object-fit: contain;
   }
 
 }
